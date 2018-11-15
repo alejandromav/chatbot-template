@@ -1,0 +1,26 @@
+{
+	"name": "botbuilder-sample-state",
+	"version": "1.0.0",
+	"description": "Bot Builder Sample - State",
+	"scripts": {
+		"start": "node app.js",
+		"watch": "nodemon app.js"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": "8.9.4"
+	},
+	"dependencies": {
+		"botbuilder": "^3.15.0",
+		"dotenv-extended": "^2.0.2",
+		"log4js": "^2.7.0",
+		"moment": "^2.22.1",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.2",
+		"restify": "^7.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"nodemon": "^1.18.6"
+	}
+}
